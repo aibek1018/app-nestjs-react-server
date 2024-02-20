@@ -30,7 +30,7 @@ export class Transaction {
   category: Category;
 
   @Column()
-  amount: string;
+  amount: number;
 
   @CreateDateColumn()
   createdAt: Date;
